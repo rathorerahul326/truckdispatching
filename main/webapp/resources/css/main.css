@@ -1,0 +1,336 @@
+@charset "ISO-8859-1";
+
+#myInput {
+	background-position: 1px 1px;
+	height: 5px;
+	background-repeat: no-repeat;
+	width: 100%;
+	font-size: 15px;
+	padding: 12px 20px 12px 40px;
+	border: 1px solid #ddd;
+	margin-bottom: 5px;
+}
+
+#myTable {
+	border-collapse: collapse;
+	width: 75%;
+	border: 1px solid #ddd;
+	font-size: 15px;
+}
+
+#myTable th, #myTable td {
+	text-align: left;
+	padding: 12px;
+}
+
+#myTable tr {
+	border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+	background-color: #A9A9A9;
+}
+
+.dropbtn {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+h1 {
+	font-size: 80;
+	height: 100px;
+	background: grey;
+	padding: 5px;
+	color: black;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: black;
+}
+.navbar {
+	background-color: #3b5998;
+	font-size: 22px;
+	padding: 5px 10px;
+}
+
+/
+Define how each icon button should look like /
+.button {
+	color: white;
+	display: inline-block;
+	/
+	Inline
+	elements
+	with
+	width
+	and
+	height.
+	TL;
+	DR
+	they
+	make
+	the
+	icon
+	buttons
+	stack
+	from
+	left-to-right
+	instead
+	of
+	top-to-bottom
+	/
+	position
+	:
+	relative;
+	/
+	All
+	'absolute'ly
+	positioned
+	elements
+	are
+	relative
+	to
+	this
+	one
+	/
+	padding
+	:
+	2px
+	5px;
+	/
+	Add
+	some
+	padding
+	so
+	it
+	looks
+	nice
+	/
+}
+
+/
+Make the badge float in the top right corner of the button /
+.button__badge {
+	background-color: #fa3e3e;
+	border-radius: 2px;
+	color: white;
+	padding: 1px 3px;
+	font-size: 10px;
+	position: absolute; / Position the badge within the relatively
+	positioned button / top : 0;
+	right: 0;
+}
+
+.dropbtn {
+	background-color: grey;
+	color: White;
+	padding: 10px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 130px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: black;
+}
+
+h1 {
+	font-size: 80;
+	height: 100px;
+	background: grey;
+	padding: 5px;
+	color: black;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+p1 {
+    color: green;
+} p2 {
+    color: brown;
+} p3 {
+    color: orange;
+} p4 {
+    color: blue;
+} 
+
+
+
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+
+
+.button {
+  border-radius: 4px;
+  background-color: #grey;
+  border: none;
+  color: #black;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.dropbtn {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+h1 {
+	font-size: 80;
+	height: 100px;
+	background: grey;
+	padding: 5px;
+	color: black;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
